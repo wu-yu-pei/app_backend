@@ -32,5 +32,6 @@ jobs:
             echo "stop ..."
             cd /home/nodeServer/app
             git pull
+            pnpm install
             pm2 start -n app  npm -- run pro
             echo "running ..."
