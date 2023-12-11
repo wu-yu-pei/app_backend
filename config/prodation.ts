@@ -8,14 +8,16 @@ Object.keys(defaultConfig.scheduler).forEach((key) => {
 
 const proConfig: any = {
   env: 'pro',
-  port: 3333,
+  port: 7890,
   mysqlConfig: {
-    host: '',
-    password: '',
+    host: '8.219.66.21',
+    password: '19781209Wyp',
+    database: 'app',
   },
   redisConfig: {
     port: 6379,
-    host: '',
+    host: '8.219.66.21',
+    password: '19781209Wyp',
   },
 };
 
